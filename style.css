@@ -1,0 +1,20 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
